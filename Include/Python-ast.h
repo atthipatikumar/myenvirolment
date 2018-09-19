@@ -36,7 +36,7 @@ typedef struct _alias *alias_ty;
 
 
 enum _mod_kind {Module_kind=1, Interactive_kind=2, Expression_kind=3,
-                 Suite_kind=4};
+                 Suite_kind=4}; 
 struct _mod {
         enum _mod_kind kind;
         union {
